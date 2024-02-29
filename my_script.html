@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>todos</h1>
+        <div class="to-do">
+            <form id="tasks">
+                <input type="text" id="input-task" placeholder="What needs to be done?">
+                <button id="add-task" type="submit">Add</button>
+            </form>
+
+            <ul id="task-list">
+
+            </ul>
+
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="active">Active</button>
+                <button id="completed">Completed</button>
+                <button id="check-all">Check all</button>
+                <button id="clear-completed">Clear completed</button>
+            </div>
+
+            <div>
+                <p id="total-items">Total tasks: 0</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="my_script.js"></script>
+</body>
+
+</html>
